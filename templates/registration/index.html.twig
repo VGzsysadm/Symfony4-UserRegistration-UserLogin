@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello{% endblock %}
+
+{% block body %}
+    <h1 class="h3 mb-3 font-weight-normal form-header">Register</h1>
+    {{ form_start(form, { 'attr': {'class': 'form-signin'} }) }}
+    {{ form_row(form.username, {'label':false}) }}
+    {{ form_row(form.email, {'label':false}) }}
+    {{ form_row(form.plainPassword.first, {'label':false}) }}
+    {{ form_row(form.plainPassword.second, {'label':false}) }}
+    {{ form_row(form.termsAccepted, {'label':false}) }}
+    <p class="terms">Check here to indicate that you read and agree the  <a href="{{ path('privacy_policy') }}">Privacy Policy.</a></p>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+    {{ form_end(form) }}
+{% endblock %}

@@ -1,0 +1,10 @@
+.static-container{
+    text-align: center;
+}
+.static-container p, .static-container h2{
+    margin-top: 30px;
+}
+.static-container p{
+    text-align: justify;
+
+}
