@@ -49,6 +49,7 @@ The application has one public route /privacy-policy and one private route /priv
 ## Built With
 
 * [Symfony 4](https://symfony.com/doc/current/index.html)
+* [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
 
 ## Authors of this practice
 
