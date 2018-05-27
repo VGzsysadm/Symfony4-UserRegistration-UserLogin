@@ -13,7 +13,8 @@ composer create-project symfony/website-skeleton Symfony4-UserRegistration-UserL
 ### Prerequisites
 
 * PHP 7.2
-* mysql
+* Mysql
+* Composer
 
 ### Installing
 
