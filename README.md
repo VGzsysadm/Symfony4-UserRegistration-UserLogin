@@ -36,7 +36,7 @@ php bin/console make:migration
 php bin/console doctrine:migrations:migrate
 ```
 
-Engage the dev server:
+Turn on the dev server:
 
 ```
 php -S 127.0.0.1:8000 -t public
