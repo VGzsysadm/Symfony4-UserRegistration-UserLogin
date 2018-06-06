@@ -4,10 +4,10 @@ Simply application following the documentation from Symfony related with User re
 
 ## Getting Started
 
-Create an empty skeleton with composer:
+Clone the project and execute composer install.
 
 ```
-composer create-project symfony/website-skeleton Symfony4-UserRegistration-UserLogin
+composer install
 ```
 
 ### Prerequisites
