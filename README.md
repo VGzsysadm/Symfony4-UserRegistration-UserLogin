@@ -18,14 +18,6 @@ composer install
 
 ### Installing
 
-Unzip the source to the directory "Symfony4-UserRegistration-UserLogin"
-
-Install dependencies
-
-```
-composer require symfony/orm-pack symfony/form symfony/security-bundle symfony/validator
-```
-
 Modify .env file with your database information.
 
 Create the database and tables:
